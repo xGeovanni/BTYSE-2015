@@ -10,9 +10,9 @@ import uinput
 # Pins are herein reffered to by their GPIO identities.
 
 KEYBOARD = uinput.Device([
-						  uinput.KEY_RETURN,
+						  uinput.KEY_ENTER,
 						  uinput.KEY_BACKSPACE,
-						  uinput.KEY_ESCAPE,
+						  uinput.KEY_ESC,
 						  uinput.KEY_UP,
 						  uinput.KEY_DOWN,
 						  uinput.KEY_LEFT,
@@ -24,16 +24,16 @@ KEYBOARD = uinput.Device([
 						 ])
 
 pinKey = {
-		  24 : uinput.KEY_RETURN,
+		  24 : uinput.KEY_ENTER,
 		  22 : uinput.KEY_BACKSPACE,
-		  27 : uinput.KEY_ESCAPE,
+		  27 : uinput.KEY_ESC,
 		  14 : uinput.KEY_UP,
 		  15 :uinput.KEY_DOWN,
 		  18 : uinput.KEY_LEFT,
 		  23 : uinput.KEY_RIGHT,
-		  02 : uinput.KEY_Z,
-		  03 : uinput.KEY_X,
-		  04 : uinput.KEY_A,
+		   2 : uinput.KEY_Z,
+		   3 : uinput.KEY_X,
+		   4 : uinput.KEY_A,
 		  17 : uinput.KEY_S,
 		 }
 		  
