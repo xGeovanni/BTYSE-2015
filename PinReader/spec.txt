@@ -1,4 +1,4 @@
-Pin - GPIO - Button - Key
+Pin - GPIO BCM - Button - Key
 
 03 - 02 - A - Z
 05 - 03 - B - X
@@ -18,5 +18,5 @@ EXIT GUI TO TERMINAL - BACKQUOTE
 
 PIN ONLY
 
-22 - 25 - POWER CONTROL OUT
-24 - 08 - POWER CONTROL IN
+22 - 25 - POWER CONTROL OUT (Send signal that we have shut down)
+24 - 08 - POWER CONTROL IN (Shut down)
